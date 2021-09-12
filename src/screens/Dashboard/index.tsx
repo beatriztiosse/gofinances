@@ -11,6 +11,7 @@ import {
   UserGreeting,
   UserName,
   Icon,
+  HighlightCards,
 } from "./styles";
 
 export default function Dashboard() {
@@ -34,7 +35,11 @@ export default function Dashboard() {
         </UserWrapper>
       </Header>
 
-      <HighlightCard />
+      <HighlightCards>
+        <HighlightCard />
+        <HighlightCard />
+        <HighlightCard />
+      </HighlightCards>
     </Container>
   );
 }
