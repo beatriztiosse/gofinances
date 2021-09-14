@@ -6,6 +6,7 @@ export const Container = styled.View`
   background-color: ${({ theme }) => theme.colors.shape};
   border-radius: 5px;
   padding: 17px 24px;
+  margin-bottom: 16px;
 `;
 
 export const Title = styled.Text`
@@ -34,13 +35,13 @@ export const Category = styled.View`
 
 export const Icon = styled(Feather)`
   font-size: ${RFValue(20)}px;
-  background-color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.text};
   font-family: ${({ theme }) => theme.fonts.regular};
 `;
 
 export const CategoryName = styled.Text`
   font-size: ${RFValue(14)}px;
-  background-color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.text};
   font-family: ${({ theme }) => theme.fonts.regular};
 
   margin-left: 17px;
@@ -48,6 +49,6 @@ export const CategoryName = styled.Text`
 
 export const Date = styled.Text`
   font-size: ${RFValue(14)}px;
-  background-color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.text};
   font-family: ${({ theme }) => theme.fonts.regular};
 `;
